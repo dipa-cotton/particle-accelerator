@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SRD-12VDC-SL-C") (type "KiCad") (uri "/Users/diyap/Downloads/SRD-12VDC-SL-C.pretty") (options "") (descr ""))
+)

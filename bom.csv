@@ -1,14 +1,17 @@
-'Reference'|'Qty'|'Value'|'DNP'|'Exclude from BOM'|'Exclude from Board'|'Footprint'|'Datasheet'
-'BT1'|'1'|'Battery'|''|''|''|'OptoDevice:Osram_SFH225'|''
-'D1,D2,D3'|'3'|'LED'|''|''|''|'LED_THT:LED_D3.0mm'|''
-'J1'|'1'|'Barrel_Jack_Switch'|''|''|''|'Connector_BarrelJack:BarrelJack_Horizontal'|''
-'K1'|'1'|'SRD-12VDC-SL-C'|''|''|''|'Relay:RELAY_SRD-12VDC-SL-C'|''
-'L1'|'1'|'L_Small'|''|''|''|'Inductor_THT:L_Toroid_Horizontal_D69.1mm_P63.20mm_Vishay_TJ9'|''
-'Q1,Q2'|'2'|'IRLZ44N'|''|''|''|'Package_TO_SOT_THT:TO-220-3_Vertical'|'http://www.irf.com/product-info/datasheets/data/irlz44n.pdf'
-'R1,R2'|'2'|'360'|''|''|''|'Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal'|''
-'R3'|'1'|'R_Variable'|''|''|''|'Potentiometer_THT:Potentiometer_Bourns_3386W_Horizontal'|''
-'R4'|'1'|'380'|''|''|''|'Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal'|''
-'R6'|'1'|'R_Photo'|''|''|''|'Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal'|''
-'R7'|'1'|'2000'|''|''|''|'Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal'|''
-'R8'|'1'|'100'|''|''|''|'Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal'|''
-'R9'|'1'|'10000'|''|''|''|'Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal'|''
+Reference,Qty per PCB,Qty Total,Value,Cost,Link,Footprint
+BT1,1,1,Battery,0,,OptoDevice:Osram_SFH225
+"D1,D2,D3",3,24,LED,0,,LED_THT:LED_D3.0mm
+J1,1,1,Barrel_Jack_Switch,2,https://www.aliexpress.us/item/2255799848026214.html?spm=a2g0o.detail.0.0.6c221Bpm1BpmqD&mp=1&sourceType=570&pdp_npi=6%40dis%21USD%21USD+2.03%21USD+1.99%21%21USD+1.99%21%21%21%402103292b17851981655338689e0faf%2110000000078423923%21ct%21US%214570435753%21%211%210%21&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22sourceType%22%3A%22570%22%2C%22cartSource%22%3A%22main%22%7D%7D&gatewayAdapt=glo2usa,Connector_BarrelJack:BarrelJack_Horizontal
+K1,1,8,SRD-12VDC-SL-C,4,https://www.aliexpress.us/item/3256809699756323.html?spm=a2g0o.detail.0.0.1f3fO3XUO3XUrq&mp=1&sourceType=570&pdp_npi=6%40dis%21USD%21USD+8.50%21USD+3.99%21%21USD+3.99%21%21%21%402103292b17851981748911169e0faf%2112000050479680309%21ct%21US%214570435753%21%211%210%21&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22sourceType%22%3A%22570%22%2C%22cartSource%22%3A%22main%22%7D%7D&gatewayAdapt=glo2usa,Relay:RELAY_SRD-12VDC-SL-C
+L1,1,8,L_Small,25,https://www.aliexpress.us/item/3256808422468306.html?spm=a2g0o.cart.0.0.26fa38daCVmiaf&mp=1&pdp_npi=6%40dis%21USD%21USD+53.38%21USD+25.62%21%21USD+25.45%21%21%21%402103292b17851981431007747e0faf%2112000045935004106%21ct%21US%214570435753%21%211%210%21&gatewayAdapt=glo2usa,Inductor_THT:L_Toroid_Horizontal_D69.1mm_P63.20mm_Vishay_TJ9
+Q1,1,8,IRLZ44N,3.2,https://www.aliexpress.us/item/3256807714372891.html?spm=a2g0o.detail.0.0.28d2nDrAnDrApf&mp=1&sourceType=570&pdp_npi=6%40dis%21USD%21USD+10.16%21USD+3.19%21%21USD+3.19%21%21%21%402103292b17851981464677929e0faf%2112000042770794289%21ct%21US%214570435753%21%211%210%21&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22sourceType%22%3A%22570%22%2C%22cartSource%22%3A%22main%22%7D%7D&gatewayAdapt=glo2usa,Package_TO_SOT_THT:TO-220-3_Vertical
+"R1,R2",2,16,360,0,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+R3,1,8,R_Variable,0,,Potentiometer_THT:Potentiometer_Bourns_3386W_Horizontal
+R4,1,8,380,0,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+R6,1,8,R_Photo,0,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+R7,1,8,2000,0,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+R8,1,8,100,0,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+R9,1,8,10000,0,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+PCB,,8,,20,JLCPCB,
+Wire,good amount,3,,10,https://www.aliexpress.us/item/3256810483652448.html?spm=a2g0o.cart.0.0.361538daWb5agq&mp=1&pdp_npi=6%40dis%21USD%21USD+5.40%21USD+2.46%21%21USD+2.44%21%21%21%402103292b17851980574433099e0faf%2112000053139315963%21ct%21US%214570435753%21%212%210%21&gatewayAdapt=glo2usa,
+,,,,64.2,,
